@@ -11,12 +11,13 @@
 
 class systemHostName
 {
-    systemHostName(void);
+
     string sysHostName;
     
 public:
     string getHostName();
-}
+    systemHostName();
+};
 
 #endif /* Assign1_hpp */
 
