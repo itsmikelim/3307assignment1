@@ -9,7 +9,7 @@
 
 systemHostName::systemHostName(void)
 {
-    sysHostName = system("hostname")
+    sysHostName = system("hostname");
 }
 
 string systemHostName::getHostName()
