@@ -19,7 +19,7 @@ systemHostName::systemHostName(void)
 
 void systemHostName::getHostName()
 {
-    cout << sysHostName << endl;
+    cout << sysHostName;
 }
 
 int main()
