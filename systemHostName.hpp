@@ -11,7 +11,7 @@
 
 class systemHostName
 {
-    systemHostName();
+    systemHostName(void);
     string sysHostName;
     
 public:

@@ -8,6 +8,8 @@
 #include "systemHostName.hpp"
 #include <unistd.h>
 #include <stdio.h>
+using namespace std;
+
 
 systemHostName::systemHostName(void)
 {
@@ -17,4 +19,12 @@ systemHostName::systemHostName(void)
 string systemHostName::getHostName()
 {
     cout << sysHostName << endl;
+}
+
+int main()
+{
+    systemHostName shn;
+    shn.getHostName();
+    
+    return 0;
 }
