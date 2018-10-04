@@ -27,10 +27,6 @@ private:
     const int secInHour = 3600;
     const int secInMinute = 60;
     
-//    string systemName;
-//    string systemRelease;
-//    string systemVersion;
-//    long systemUptime;
     
 public:
     
