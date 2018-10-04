@@ -23,6 +23,10 @@ class operatingSystemDetails
 private:
     struct sysinfo info;
     struct utsname name;
+    int seconds, minutes, hours, days;
+    const int secInDay = 86400;
+    const int secInHour = 3600;
+    const int secInMinute = 60;
     
 //    string systemName;
 //    string systemRelease;

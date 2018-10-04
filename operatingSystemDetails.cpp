@@ -35,7 +35,15 @@ void operatingSystemDetails::machineData()
 
 void operatingSystemDetails::systemUptime()
 {
-    cout << info.uptime << endl;
+    seconds = info.uptime;
+    days = seconds / secInDay;
+    seconds = seconds % secInDay;
+    hours = seconds / secInHour;
+    seconds = seconds % secInHour;
+    minutes = seconds / secInMinute;
+    seconds = seconds % secInMinute;
+    
+    cout << days << ":" << hours << ":" << minutes << ":" << seconds << endl;
 }
 
 int main()
