@@ -20,7 +20,7 @@ void processorInfo::getVendor()
     while(getline(finfo,line))
     {
         stringstream str(line);
-        if (getline(str, type, ':' ) && getline(str,info) && type.substr(0,10) == "vendor_id") {
+        if (getline(str, type, ':' ) && getline(str,info) && type.substr(0,10) == "model name") {
             cout << info << endl;
             break;
         }
