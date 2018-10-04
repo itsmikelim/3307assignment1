@@ -21,8 +21,8 @@ using namespace std;
 class operatingSystemDetails
 {
 private:
-    sysinfo info;
-    uname name;
+    struct sysinfo info;
+    struct uname name;
     
 //    string systemName;
 //    string systemRelease;

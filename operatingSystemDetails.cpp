@@ -9,14 +9,14 @@
 
 operatingSystemDetails::operatingSystemDetails(void)
 {
-    info = sysinfo();
-    name = uname();
+    sysinfo(&info);
+    uname(&name);
 }
 
 void operatingSystemDetails::getOSName()
 {
     
-    cout << uname.sysname;
+    cout << name.sysname;
 }
 
 void
