@@ -13,6 +13,7 @@
 #include <string>
 #include <sstream>
 #include <fstream>
+#include <sys/sysinfo.h>
 using namespace std;
 
 
