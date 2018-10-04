@@ -6,10 +6,6 @@
 //
 
 #include "systemHostName.hpp"
-#include <unistd.h>
-#include <stdio.h>
-using namespace std;
-
 
 systemHostName::systemHostName(void)
 {

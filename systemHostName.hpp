@@ -7,11 +7,15 @@
 
 #ifndef systemHostName
 #define systemHostName
+#include <unistd.h>
+#include <stdio.h>
+#include <iostream>
+#include <string>
+using namespace std;
 
 
 class systemHostName
 {
-
     string sysHostName;
     
 public:
