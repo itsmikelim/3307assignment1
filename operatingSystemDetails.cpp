@@ -30,7 +30,7 @@ void operatingSystemDetails::systemVersion()
 
 void operatingSystemDetails::machineData()
 {
-    cout << name.machineData << endl;
+    cout << name.machine << endl;
 }
 
 void operatingSystemDetails::systemUptime()
