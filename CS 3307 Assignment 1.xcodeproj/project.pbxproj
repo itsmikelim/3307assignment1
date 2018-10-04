@@ -11,12 +11,16 @@
 		84E553E5216691A200CBB024 /* systemHostName.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = systemHostName.hpp; sourceTree = "<group>"; };
 		84E553E62166A30E00CBB024 /* operatingSystemDetails.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = operatingSystemDetails.cpp; sourceTree = "<group>"; };
 		84E553E72166A30E00CBB024 /* operatingSystemDetails.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = operatingSystemDetails.hpp; sourceTree = "<group>"; };
+		84E553E82166AEAF00CBB024 /* processorInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processorInfo.cpp; sourceTree = "<group>"; };
+		84E553E92166AEAF00CBB024 /* processorInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processorInfo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		84E553DD2166910100CBB024 = {
 			isa = PBXGroup;
 			children = (
+				84E553E82166AEAF00CBB024 /* processorInfo.cpp */,
+				84E553E92166AEAF00CBB024 /* processorInfo.hpp */,
 				84E553E62166A30E00CBB024 /* operatingSystemDetails.cpp */,
 				84E553E72166A30E00CBB024 /* operatingSystemDetails.hpp */,
 				84E553E4216691A200CBB024 /* systemHostName.cpp */,

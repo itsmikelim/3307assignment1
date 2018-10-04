@@ -2,7 +2,7 @@
 //  operatingSystemDetails.cpp
 //  CS 3307 Assignment 1
 //
-//  Created by Mike Lim on 2018-10-04.
+//  Created by Mike Lim.
 //
 
 #include "operatingSystemDetails.hpp"
@@ -35,6 +35,7 @@ void operatingSystemDetails::machineData()
 
 void operatingSystemDetails::systemUptime()
 {
+    int seconds, minutes, hours, days;
     seconds = info.uptime;
     days = seconds / secInDay;
     seconds = seconds % secInDay;

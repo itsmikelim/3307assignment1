@@ -2,7 +2,7 @@
 //  operatingSystemDetails.hpp
 //  CS 3307 Assignment 1
 //
-//  Created by Mike Lim on 2018-10-04.
+//  Created by Mike Lim.
 //
 
 #ifndef operatingSystemDetails_hpp
@@ -23,7 +23,6 @@ class operatingSystemDetails
 private:
     struct sysinfo info;
     struct utsname name;
-    int seconds, minutes, hours, days;
     const int secInDay = 86400;
     const int secInHour = 3600;
     const int secInMinute = 60;
