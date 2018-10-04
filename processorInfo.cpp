@@ -28,10 +28,28 @@ void processorInfo::getVendor()
 
 }
 
+void processorInfo::getModelName()
+{
+    string type;
+    string line;
+    ifstream finfo("/proc/cpuinfo");
+    while(getline(finfo,line))
+    {
+        stringstream str(line);
+        if (getline(str, type, ':' ) && getline(str,info) && type.substr(0,10) == "model name") {
+            cout << info << endl;
+            break;
+        }
+    }
+    
+}
+
+
 int main()
 {
     processorInfo PI;
     PI.getVendor();
+    PI.getModelName();
     
     return 0;
 }
