@@ -7,6 +7,7 @@
 
 #include "systemHostName.hpp"
 #include <unistd.h>
+#include <stdio.h>
 
 systemHostName::systemHostName(void)
 {

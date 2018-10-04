@@ -5,10 +5,9 @@
 //  Created by Mike Lim on 2018-10-04.
 //
 
-#ifndef systemHostName.hpp
-#define systemHostName.hpp
+#ifndef systemHostName
+#define systemHostName
 
-#include <stdio.h>
 
 class systemHostName
 {
