@@ -9,10 +9,15 @@
 
 systemHostName::systemHostName(void)
 {
-    sysHostName = system("hostname");
+    stringstream ss;
+    auto old_buf = cout.rdbuf(ss.rdbuf());
+    cout.rdbuf(old_buf);
+    system("hostname");
+    sysHostName = ss.str();
+    
 }
 
-string systemHostName::getHostName()
+void systemHostName::getHostName()
 {
     cout << sysHostName << endl;
 }
@@ -20,7 +25,7 @@ string systemHostName::getHostName()
 int main()
 {
     systemHostName shn;
-    //shn.getHostName();
+    shn.getHostName();
     
     return 0;
 }

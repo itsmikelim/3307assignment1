@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
+#include <sstream>
 using namespace std;
 
 
@@ -20,7 +21,7 @@ class systemHostName
         string sysHostName;
     
     public:
-        string getHostName();
+        void getHostName();
         systemHostName();
 };
 
