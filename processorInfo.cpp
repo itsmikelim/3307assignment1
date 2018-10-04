@@ -9,7 +9,7 @@
 
 processorInfo::processorInfo(void)
 {
-    
+    sysinfo(&sysInfo);
 }
 
 void processorInfo::getVendor()
@@ -44,12 +44,18 @@ void processorInfo::getModelName()
     
 }
 
+void processorInfo::getLoadAverages()
+{
+    cout << sysInfo.loads[3] << endl;
+}
+
 
 int main()
 {
     processorInfo PI;
     PI.getVendor();
     PI.getModelName();
+    PI.getLoadAverages();
     
     return 0;
 }

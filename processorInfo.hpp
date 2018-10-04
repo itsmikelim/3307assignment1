@@ -20,10 +20,11 @@ class processorInfo
 {
 private:
     string info;
-    
+    struct sysinfo sysInfo;
 public:
     void getVendor();
     void getModelName();
+    void getLoadAverages();
     processorInfo();
 };
 
