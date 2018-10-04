@@ -22,7 +22,7 @@ class operatingSystemDetails
 {
 private:
     struct sysinfo info;
-    struct uname name;
+    struct utsname name;
     
 //    string systemName;
 //    string systemRelease;

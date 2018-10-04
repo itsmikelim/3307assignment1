@@ -19,7 +19,6 @@ void operatingSystemDetails::getOSName()
     cout << name.sysname;
 }
 
-void
 
 int main()
 {
