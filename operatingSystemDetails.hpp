@@ -31,10 +31,11 @@ private:
     
 public:
     
-    void getOSName();
+    void OSName();
     void systemRelease();
     void systemVersion();
     void systemUptime();
+    void machineData();
     operatingSystemDetails();
 };
 

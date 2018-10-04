@@ -13,17 +13,39 @@ operatingSystemDetails::operatingSystemDetails(void)
     uname(&name);
 }
 
-void operatingSystemDetails::getOSName()
+void operatingSystemDetails::OSName()
 {
-    
-    cout << name.sysname;
+    cout << name.sysname << endl;
 }
 
+void operatingSystemDetails::systemRelease()
+{
+    cout << name.release << endl;
+}
+
+void operatingSystemDetails::systemVersion()
+{
+    cout << name.version << endl;
+}
+
+void operatingSystemDetails::machineData()
+{
+    cout << name.machineData << endl;
+}
+
+void operatingSystemDetails::systemUptime()
+{
+    cout << info.uptime << endl;
+}
 
 int main()
 {
     operatingSystemDetails osd;
-    osd.getOSName();
+    osd.OSName();
+    osd.systemRelease();
+    osd.systemVersion();
+    osd.machineData();
+    osd.systemUptime();
     
     return 0;
 }
