@@ -28,5 +28,5 @@ int main()
     mI.totalMemory();
     mI.freeMemory();
     
-    return 0
+    return 0;
 }
