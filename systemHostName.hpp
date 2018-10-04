@@ -5,8 +5,8 @@
 //  Created by Mike Lim on 2018-10-04.
 //
 
-#ifndef systemHostName
-#define systemHostName
+#ifndef systemHostName_H
+#define systemHostName_H
 #include <unistd.h>
 #include <stdio.h>
 #include <iostream>
