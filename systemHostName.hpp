@@ -16,11 +16,12 @@ using namespace std;
 
 class systemHostName
 {
-    string sysHostName;
+    private:
+        string sysHostName;
     
-public:
-    string getHostName();
-    systemHostName();
+    public:
+        string getHostName();
+        systemHostName();
 };
 
 #endif /* Assign1_hpp */
