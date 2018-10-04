@@ -5,10 +5,15 @@
 //  Created by Mike Lim on 2018-10-04.
 //
 
-#include "Assign1.hpp"
+#include "systemHostName.hpp"
 #include <unistd.h>
 
 systemHostName::systemHostName(void)
 {
     sysHostName = system("hostname")
+}
+
+string systemHostName::getHostName()
+{
+    cout << sysHostName << endl;
 }

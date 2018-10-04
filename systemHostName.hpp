@@ -5,8 +5,8 @@
 //  Created by Mike Lim on 2018-10-04.
 //
 
-#ifndef Assign1_hpp
-#define Assign1_hpp
+#ifndef systemHostName.hpp
+#define systemHostName.hpp
 
 #include <stdio.h>
 
