@@ -20,7 +20,7 @@ string systemHostName::getHostName()
 int main()
 {
     systemHostName shn;
-    shn.getHostName();
+    //shn.getHostName();
     
     return 0;
 }
