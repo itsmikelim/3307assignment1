@@ -12,10 +12,10 @@
 #include "operatingSystemDetails.cpp"
 #include "processorInfo.cpp"
 #include "memoryInfo.cpp"
-#include "networkInterfaceList.cpp"
-#include "networkInterface.cpp"
-#include "process.cpp"
-#include "processList.cpp"
+//#include "networkInterfaceList.cpp"
+//#include "networkInterface.cpp"
+//#include "process.cpp"
+//#include "processList.cpp"
 
 
 // create an object of each class
@@ -40,11 +40,11 @@ int main()
     mI.totalMemory();
     mI.freeMemory();
     
-    networkInterfaceList nIL;
-    nIL.toString();
+    //networkInterfaceList nIL;
+    //nIL.toString();
     
-    processList pL;
-    pL.toString();
+    //processList pL;
+    //pL.toString();
     
     return  0;
 }

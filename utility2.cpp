@@ -12,10 +12,10 @@
 #include "operatingSystemDetails.cpp"
 #include "processorInfo.cpp"
 #include "memoryInfo.cpp"
-#include "networkInterfaceList.cpp"
-#include "networkInterface.cpp"
-#include "process.cpp"
-#include "processList.cpp"
+//#include "networkInterfaceList.cpp"
+//#include "networkInterface.cpp"
+//#include "process.cpp"
+//#include "processList.cpp"
 
 
 int main()
@@ -29,13 +29,13 @@ int main()
         getline(cin, response);
     
         // check if user inputted hostname
-        if(response == "hostname") {
+        if (response == "hostname") {
             systemHostName shn;
             shn.getHostName();
         }
         
         // check if user inputted operating system
-        if(response == "operating system"){
+        if (response == "operating system"){
             operatingSystemDetails osd;
             osd.OSName();
             osd.systemRelease();
@@ -45,7 +45,7 @@ int main()
             }
         
         // check if user inputted processor
-        if(response == "processor") {
+        if (response == "processor") {
             processorInfo PI;
             PI.getVendor();
             PI.getModelName();
@@ -60,16 +60,16 @@ int main()
         }
         
         // check if user inputted network interfaces
-        if (response == "network interfaces") {
-            networkInterfaceList nIL;
-            nIL.toString();
-        }
+       // if (response == "network interfaces") {
+       //     networkInterfaceList nIL;
+       //     nIL.toString();
+       // }
         
         // check if user inputted processes
-        if (response == "processes") {
-            processList pL;
-            pL.toString();
-        }
+       // if (response == "processes") {
+       //     processList pL;
+       //     pL.toString();
+       // }
 
     }
     return 0;

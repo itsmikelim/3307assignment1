@@ -20,12 +20,12 @@ bool is_integer(float k)
 
 int main(void)
 {
-    DIR           *d;
+    DIR *directory;
     struct dirent *dir;
     vector<int> fileList;
     int i=0;
-    d = opendir("/proc");
-    if (d)
+    directory = opendir("/proc");
+    if (directory)
     {
         while ((dir = readdir(d)) != NULL)
         {
@@ -34,11 +34,11 @@ int main(void)
                 fileList.push_back(dir->d_name);
 
         }
-      //  for(int i=0;i<fileList.size();i++) {
-          //  cout<<fileList[i]<<endl;
-           // doSomething(fileList[i]);
+        for(int i=0;i<fileList.size();i++) {
+            cout<<fileList[i]<<endl;
+            doSomething(fileList[i]);
         }
-        closedir(d);
+        closedir(directory);
     }
     
     return(0);
