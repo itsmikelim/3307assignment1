@@ -15,9 +15,6 @@
 //#include "process.cpp"
 //#include "processList.cpp"
 
-utility1::utility1()
-{
-}
 
 int main()
 {

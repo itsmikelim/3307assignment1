@@ -15,8 +15,6 @@
 #include <sys/sysinfo.h>
 using namespace std;
 
-class utility1
-{
-};
+
 
 #endif /* utility1_hpp */
