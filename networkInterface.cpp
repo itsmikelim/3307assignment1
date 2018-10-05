@@ -7,7 +7,7 @@
 
 #include "networkInterface.hpp"
 
-networkInterface::networkInterace(string inputInterface, string inputMac)
+networkInterface::networkInterface(string inputInterface, string inputMac)
 {
     interface = inputInterface;
     mac = inputMac;
