@@ -6,6 +6,7 @@
 //
 
 #include "networkInterfaceList.hpp"
+#include "networkInterface.cpp"
 
 networkInterfaceList::networkInterfaceList(void)
 {
