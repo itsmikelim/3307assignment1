@@ -26,6 +26,8 @@ private:
 public:
     string getNetworkInterface();
     string getMac();
+    void setNetworkInterface(string newInterface);
+    void setMac(string newMac);
     networkInterface;
     
 }

@@ -23,12 +23,16 @@
 		84E553F12166C84A00CBB024 /* process.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = process.hpp; sourceTree = "<group>"; };
 		84E553F22166C85C00CBB024 /* processList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processList.cpp; sourceTree = "<group>"; };
 		84E553F32166C85C00CBB024 /* processList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processList.hpp; sourceTree = "<group>"; };
+		84E553F42167095700CBB024 /* utility1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utility1.cpp; sourceTree = "<group>"; };
+		84E553F52167095700CBB024 /* utility1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = utility1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		84E553DD2166910100CBB024 = {
 			isa = PBXGroup;
 			children = (
+				84E553F42167095700CBB024 /* utility1.cpp */,
+				84E553F52167095700CBB024 /* utility1.hpp */,
 				84E553F22166C85C00CBB024 /* processList.cpp */,
 				84E553F32166C85C00CBB024 /* processList.hpp */,
 				84E553F02166C84A00CBB024 /* process.cpp */,

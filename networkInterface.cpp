@@ -22,3 +22,13 @@ string networkInterface::getMac()
 {
     return mac;
 }
+
+void networkInterface::setNetworkInterface(string newInterface)
+{
+    interace = newInterface;
+}
+
+void networkInterface::setMac(string newMac)
+{
+    mac = newMac;
+}

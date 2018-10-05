@@ -25,6 +25,8 @@ private:
     vector<networkInterface> listOfNets;
     
 public:
+    string interface;
+    string mac;
     string toString();
     networkInterfaceList();
     
