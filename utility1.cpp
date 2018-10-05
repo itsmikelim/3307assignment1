@@ -6,10 +6,10 @@
 //
 
 #include "utility1.hpp"
-#include "systemHostName.hpp"
-#include "operatingSystemDetails.hpp"
-#include "processorInfo.hpp"
-#include "memoryInfo.hpp"
+#include "systemHostName.cpp"
+#include "operatingSystemDetails.cpp"
+#include "processorInfo.cpp"
+#include "memoryInfo.cpp"
 //#include "networkInterfaceList.cpp"
 //#include "networkInterface.cpp"
 //#include "process.cpp"
