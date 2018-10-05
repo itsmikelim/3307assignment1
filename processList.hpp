@@ -23,5 +23,14 @@
 #include <filesystem>
 using namespace std;
 
+class processList
+{
+
+public:
+    processList();
+    
+};
+
+
 
 #endif /* processList_hpp */
