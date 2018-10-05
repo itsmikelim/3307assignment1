@@ -8,8 +8,8 @@
 #include "processList.hpp"
 processList::processList(void)
 {
-    namespace fs = filesystem;
-    string path = "/proc";
+    namespace fs = std::filesystem;
+    std::string path = "/proc";
     for (const auto & p : fs::directory_iterator(path))
         std::cout << p << std::endl;
 }
