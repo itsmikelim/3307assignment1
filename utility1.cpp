@@ -10,10 +10,10 @@
 #include "operatingSystemDetails.cpp"
 #include "processorInfo.cpp"
 #include "memoryInfo.cpp"
-#include "networkInterfaceList.cpp"
-#include "networkInterface.cpp"
-#include "process.cpp"
-#include "processList.cpp"
+//#include "networkInterfaceList.cpp"
+//#include "networkInterface.cpp"
+//#include "process.cpp"
+//#include "processList.cpp"
 
 utility1::utility1(void)
 {
