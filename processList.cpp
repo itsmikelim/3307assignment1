@@ -6,12 +6,19 @@
 //
 
 #include "processList.hpp"
-namespace fs = std::filesystem;
+processList::processList(void)
+{
+    namespace fs = std::experimental::filesystem;
+    std::string path = "/proc";
+    for (const auto & p : fs::directory_iterator(path))
+        std::cout << p << std::endl;
+}
+
 
 int main()
 {
-    std::string path = "/path/to/directory";
-    for (auto & p : fs::directory_iterator(path))
-        std::cout << p << std::endl;
+    processList pL;
+    
+    return 0;
 }
 
