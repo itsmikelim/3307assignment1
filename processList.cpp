@@ -2,6 +2,9 @@
 //  processList.cpp
 //  CS 3307 Assignment 1
 //
+// class that outputs and saves the a list of process
+// objects
+//
 //  Created by Mike Lim.
 //
 

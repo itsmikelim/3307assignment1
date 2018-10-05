@@ -26,6 +26,7 @@ class operatingSystemDetails
 private:
     struct sysinfo info;
     struct utsname name;
+    // constants that show how many seconds in a day, hour, and minute
     const int secInDay = 86400;
     const int secInHour = 3600;
     const int secInMinute = 60;

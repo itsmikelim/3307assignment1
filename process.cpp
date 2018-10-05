@@ -2,12 +2,16 @@
 //  process.cpp
 //  CS 3307 Assignment 1
 //
+// class that creates and saves process objects with information like
+// its process ID, name, owner UID, parent process ID, and state
+//
 //  Created by Mike Lim.
 //
 
 #include "process.hpp"
 
-process::process(int inPid, string inName, string inOuid, string inPpid, string inState)
+// constructor that takes arguments to set the variables
+process::process(int inPid, string inName, int inOuid, int inPpid, string inState)
 {
     pid = inPid;
     name = inName;
@@ -16,48 +20,61 @@ process::process(int inPid, string inName, string inOuid, string inPpid, string 
     state = inState;
 }
 
+// function to return the process ID
 int process::getPid()
 {
     return pid;
 }
 
+// function to return the name
 string process::getName()
 {
     return name;
 }
 
-string process::getOuid()
+// function to return the owner UID
+int process::getOuid()
 {
     return ouid;
 }
 
-string process::getPpid()
+// function to return the parent process ID
+int process::getPpid()
 {
     return ppid;
 }
 
+// function to return the state
 string process::getState()
 {
     return state;
 }
 
+// function to set the process ID
 void process::setPid(int newPid)
 {
     pid = newPid;
 }
 
+// function to set the name
 void process::setName(string newName)
 {
     name = newName;
 }
-void process::setOuid(string newOuid)
+
+// function to set the owner UID
+void process::setOuid(int newOuid)
 {
     ouid = newOuid;
 }
-void process::setPpid(string newPpid)
+
+// function to set the parent process ID
+void process::setPpid(int newPpid)
 {
     ppid = newPpid;
 }
+
+// function to set the state
 void process::setState(string newState)
 {
     state = newState;

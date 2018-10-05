@@ -2,6 +2,9 @@
 //  networkInterfaceList.cpp
 //  CS 3307 Assignment 1
 //
+// class that outputs and saves the a list of network interface
+// objects
+//
 //  Created by Mike Lim.
 //
 

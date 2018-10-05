@@ -30,18 +30,18 @@ private:
 public:
     int pid;
     string name;
-    string ouid;
-    string ppid;
+    int ouid;
+    int ppid;
     string state;
-    string getPid();
+    int getPid();
     string getName();
-    string getOuid();
-    string getPpid();
+    int getOuid();
+    int getPpid();
     string getState();
     void setPid(int newPid);
     void setName(string newName);
-    void setOuid(string newOuid);
-    void setPpid(string newPpid);
+    void setOuid(int newOuid);
+    void setPpid(int newPpid);
     void setState(string newState);
     process();
     
