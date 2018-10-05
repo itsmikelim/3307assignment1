@@ -8,7 +8,7 @@
 #include "processList.hpp"
 
 using namespace std;
-std::vector<std::int> fileName
+std::vector<std::int> fileName;
 
 int main(void)
 {
