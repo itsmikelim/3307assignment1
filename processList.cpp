@@ -8,7 +8,6 @@
 #include "processList.hpp"
 processList::processList(void)
 {
-    vector<networkInterface> listProcess;
     namespace fs = filesystem;
     string path = "/proc";
     for (const auto & p : fs::directory_iterator(path))
