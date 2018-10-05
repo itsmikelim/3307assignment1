@@ -21,7 +21,7 @@ int main()
     string response;
     
     while (response != "exit") {
-        cout << "Would you like to know the information of hostname, operating system, processor, memory, network interfaces, process, or exit?\n";
+        cout << "\nWould you like to know the information of hostname, operating system, processor, memory, network interfaces, process, or exit?\n\n";
     
         getline(cin, response);
     
