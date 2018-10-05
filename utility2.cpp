@@ -27,31 +27,34 @@ int main()
     
         if(response == 'hostname') {
             systemHostName shn;
-                shn.getHostName();
+            shn.getHostName();
         }
-            if(response == 'operating system'){
-            
-             operatingSystemDetails osd;
-                osd.OSName();
-                osd.systemRelease();
-                osd.systemVersion();
-                osd.machineData();
-                osd.systemUptime();
+        if(response == 'operating system'){
+            operatingSystemDetails osd;
+            osd.OSName();
+            osd.systemRelease();
+            osd.systemVersion();
+            osd.machineData();
+            osd.systemUptime();
             }
         if(response == 'processor') {
             processorInfo PI;
-                PI.getVendor();
-                PI.getModelName();
-                PI.getLoadAverages();
+            PI.getVendor();
+            PI.getModelName();
+            PI.getLoadAverages();
         }
-        if (response == 'memory') { memoryInfo mI;
-                mI.totalMemory();
-                mI.freeMemory();
+        if (response == 'memory') {
+            memoryInfo mI;
+            mI.totalMemory();
+            mI.freeMemory();
         }
                 //case network interface:
                 //case process:
     
-        }
+        
+
+
     }
-    return 0
+    return 0;
+
 }
