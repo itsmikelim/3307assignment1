@@ -10,6 +10,11 @@
 using namespace std;
 std::vector<std::int> fileName;
 
+bool is_integer(float k)
+{
+    return std::floor(k) == k;
+}
+
 int main(void)
 {
     DIR           *d;
