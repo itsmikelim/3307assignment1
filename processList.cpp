@@ -8,17 +8,32 @@
 #include "processList.hpp"
 
 using namespace std;
-using namespace boost::filesystem;
+std::vector<std::int> fileName
 
-int main()
+int main(void)
 {
-    path p("/proc");
-    for (auto i = directory_iterator(p); i != directory_iterator(); i++)
+    DIR           *d;
+    struct dirent *dir;
+    vector<int> fileList;
+    int i=0;
+    d = opendir("/proc");
+    if (d)
     {
+        while ((dir = readdir(d)) != NULL)
+        {
+            i++;
+            if (is_integer(dir))
+            {
 
-        
-            cout << i->path().filename().string() << endl;
-        
-
+                fileList.push_back(dir->d_name);
+            }
+        }
+      //  for(int i=0;i<fileList.size();i++) {
+          //  cout<<fileList[i]<<endl;
+           // doSomething(fileList[i]);
+        }
+        closedir(d);
     }
+    
+    return(0);
 }
