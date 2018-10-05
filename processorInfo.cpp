@@ -50,12 +50,3 @@ void processorInfo::getLoadAverages()
 }
 
 
-int main()
-{
-    processorInfo PI;
-    PI.getVendor();
-    PI.getModelName();
-    PI.getLoadAverages();
-    
-    return 0;
-}

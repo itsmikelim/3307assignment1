@@ -22,11 +22,3 @@ void memoryInfo::freeMemory()
     cout << info.freeram << endl;
 }
 
-int main()
-{
-    memoryInfo mI;
-    mI.totalMemory();
-    mI.freeMemory();
-    
-    return 0;
-}

@@ -22,10 +22,3 @@ void systemHostName::getHostName()
     cout << sysHostName;
 }
 
-int main()
-{
-    systemHostName shn;
-    shn.getHostName();
-    
-    return 0;
-}

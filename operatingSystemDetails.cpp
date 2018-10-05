@@ -47,14 +47,3 @@ void operatingSystemDetails::systemUptime()
     cout << days << ":" << hours << ":" << minutes << ":" << seconds << endl;
 }
 
-int main()
-{
-    operatingSystemDetails osd;
-    osd.OSName();
-    osd.systemRelease();
-    osd.systemVersion();
-    osd.machineData();
-    osd.systemUptime();
-    
-    return 0;
-}
