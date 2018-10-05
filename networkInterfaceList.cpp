@@ -24,7 +24,7 @@ networkInterfaceList::networkInterfaceList(void)
         istringstream buf(networks);
         for (string word; buf >> word;)
         {
-            ifstream finfo("/sys/class/net/"word);
+            ifstream finfo("/sys/class/net/" + word);
             while(getline(finfo,line))
             {
                 stringstream ss2;

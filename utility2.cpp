@@ -25,26 +25,29 @@ int main()
     
         getline(cin, response);
     
-        switch(response) {
-            case hostname: systemHostName shn;
+        if(response == 'hostname') {
+            systemHostName shn;
                 shn.getHostName();
-                break;
-            case operating system: operatingSystemDetails osd;
+        }
+            if(response == 'operating system'){
+            
+             operatingSystemDetails osd;
                 osd.OSName();
                 osd.systemRelease();
                 osd.systemVersion();
                 osd.machineData();
                 osd.systemUptime();
-                break;
-            case processor: processorInfo PI;
+            }
+        if(response == 'processor') {
+            processorInfo PI;
                 PI.getVendor();
                 PI.getModelName();
                 PI.getLoadAverages();
-                break;
-            case memory: memoryInfo mI;
+        }
+        if (response == 'memory') { memoryInfo mI;
                 mI.totalMemory();
                 mI.freeMemory();
-                break;
+        }
                 //case network interface:
                 //case process:
     
