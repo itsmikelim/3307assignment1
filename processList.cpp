@@ -6,19 +6,21 @@
 //
 
 #include "processList.hpp"
-processList::processList(void)
-{
-    namespace fs = std::experimental::filesystem;
-    std::string path = "/proc";
-    for (const auto & p : fs::directory_iterator(path))
-        std::cout << p << std::endl;
-}
-
+#include <string>
+#include <iostream>
+#include <boost/filesystem.hpp>
+using namespace std;
+using namespace boost::filesystem;
 
 int main()
 {
-    processList pL;
-    
-    return 0;
-}
+    path p("/proc");
+    for (auto i = directory_iterator(p); i != directory_iterator(); i++)
+    {
 
+        
+            cout << i->path().filename().string() << endl;
+        
+
+    }
+}
