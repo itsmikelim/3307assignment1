@@ -25,11 +25,11 @@ int main()
     
         getline(cin, response);
     
-        if(response == 'hostname') {
+        if(response == "hostname") {
             systemHostName shn;
             shn.getHostName();
         }
-        if(response == 'operating system'){
+        if(response == "operating system"){
             operatingSystemDetails osd;
             osd.OSName();
             osd.systemRelease();
@@ -37,13 +37,13 @@ int main()
             osd.machineData();
             osd.systemUptime();
             }
-        if(response == 'processor') {
+        if(response == "processor") {
             processorInfo PI;
             PI.getVendor();
             PI.getModelName();
             PI.getLoadAverages();
         }
-        if (response == 'memory') {
+        if (response == "memory") {
             memoryInfo mI;
             mI.totalMemory();
             mI.freeMemory();
