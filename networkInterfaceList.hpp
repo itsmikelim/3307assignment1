@@ -22,13 +22,12 @@ using namespace std;
 class networkInterfaceList
 {
 private:
-    list<networkInterface> listOfNets;
+    vector<networkInterface> listOfNets;
     
 public:
     string toString();
-    networkInterfaceList;
+    networkInterfaceList();
     
-}
-
+};
 
 #endif /* networkInterfaceList_hpp */
