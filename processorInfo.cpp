@@ -50,3 +50,9 @@ void processorInfo::getLoadAverages()
 }
 
 
+int main() {
+    processorInfo PI;
+    PI.getLoadAverages();
+    
+    return 0;
+}
