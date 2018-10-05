@@ -2,7 +2,9 @@
 //  utility1.hpp
 //  CS 3307 Assignment 1
 //
-//  Created by Mike Lim on 2018-10-04.
+//  Header file for the class utility1
+//
+//  Created by Mike Lim.
 //
 
 #ifndef utility1_hpp

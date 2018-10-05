@@ -2,12 +2,26 @@
 //  processList.hpp
 //  CS 3307 Assignment 1
 //
-//  Created by Mike Lim on 2018-10-04.
+//  Header file for the class processList
+//  Initializes the private and public variables needed
+//
+//  Created by Mike Lim.
 //
 
 #ifndef processList_hpp
 #define processList_hpp
-
+#include <unistd.h>
 #include <stdio.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <sys/types.h>
+#include <ifaddrs.h>
+#include <vector>
+#include <iterator>
+#include <iostream>
+#include <filesystem>
+using namespace std;
+
 
 #endif /* processList_hpp */

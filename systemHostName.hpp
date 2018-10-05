@@ -2,6 +2,9 @@
 //  systemHostName.hpp
 //  CS 3307 Assignment 1
 //
+//  Header file for the class systemHostName
+//  Initializes the private and public variables needed
+//
 //  Created by Mike Lim.
 //
 

@@ -2,7 +2,7 @@
 //  utility1.cpp
 //  CS 3307 Assignment 1
 //
-//  Created by Mike Lim on 2018-10-04.
+//  Created by Mike Lim.
 //
 
 #include "utility1.hpp"

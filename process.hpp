@@ -2,6 +2,9 @@
 //  process.hpp
 //  CS 3307 Assignment 1
 //
+//  Header file for the class process
+//  Initializes the private and public variables needed
+//
 //  Created by Mike Lim.
 //
 

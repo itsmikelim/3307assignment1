@@ -2,6 +2,9 @@
 //  operatingSystemDetails.hpp
 //  CS 3307 Assignment 1
 //
+//  Header file for the class operatingSystemDetails
+//  Initializes the private and public variables needed
+//
 //  Created by Mike Lim.
 //
 
