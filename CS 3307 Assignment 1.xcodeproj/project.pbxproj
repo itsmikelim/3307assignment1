@@ -15,12 +15,28 @@
 		84E553E92166AEAF00CBB024 /* processorInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processorInfo.hpp; sourceTree = "<group>"; };
 		84E553EA2166BB3E00CBB024 /* memoryInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = memoryInfo.cpp; sourceTree = "<group>"; };
 		84E553EB2166BB3E00CBB024 /* memoryInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = memoryInfo.hpp; sourceTree = "<group>"; };
+		84E553EC2166BCFB00CBB024 /* networkInterfaceList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = networkInterfaceList.cpp; sourceTree = "<group>"; };
+		84E553ED2166BCFB00CBB024 /* networkInterfaceList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = networkInterfaceList.hpp; sourceTree = "<group>"; };
+		84E553EE2166BF9900CBB024 /* networkInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = networkInterface.cpp; sourceTree = "<group>"; };
+		84E553EF2166BF9900CBB024 /* networkInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = networkInterface.hpp; sourceTree = "<group>"; };
+		84E553F02166C84A00CBB024 /* process.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = process.cpp; sourceTree = "<group>"; };
+		84E553F12166C84A00CBB024 /* process.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = process.hpp; sourceTree = "<group>"; };
+		84E553F22166C85C00CBB024 /* processList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processList.cpp; sourceTree = "<group>"; };
+		84E553F32166C85C00CBB024 /* processList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		84E553DD2166910100CBB024 = {
 			isa = PBXGroup;
 			children = (
+				84E553F22166C85C00CBB024 /* processList.cpp */,
+				84E553F32166C85C00CBB024 /* processList.hpp */,
+				84E553F02166C84A00CBB024 /* process.cpp */,
+				84E553F12166C84A00CBB024 /* process.hpp */,
+				84E553EE2166BF9900CBB024 /* networkInterface.cpp */,
+				84E553EF2166BF9900CBB024 /* networkInterface.hpp */,
+				84E553EC2166BCFB00CBB024 /* networkInterfaceList.cpp */,
+				84E553ED2166BCFB00CBB024 /* networkInterfaceList.hpp */,
 				84E553EA2166BB3E00CBB024 /* memoryInfo.cpp */,
 				84E553EB2166BB3E00CBB024 /* memoryInfo.hpp */,
 				84E553E82166AEAF00CBB024 /* processorInfo.cpp */,
